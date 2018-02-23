@@ -8,5 +8,4 @@ CPP Sandboxes for fun and profit
 - Microsoft Visual Studio 2015 Update 3, `/std:c++14`
 
 # xcode 
-- Xcode 9.2, `cpp17`
-
+- Xcode Version 9.2 (9C40b), `CLANG_CXX_LANGUAGE_STANDARD = c++17` 
