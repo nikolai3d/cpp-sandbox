@@ -31,6 +31,8 @@
 *.out
 *.app
 
+**/xcuserdata
+
 .DS_Store
 bin/
 build/
