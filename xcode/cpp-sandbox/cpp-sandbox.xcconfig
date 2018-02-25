@@ -1,0 +1,20 @@
+
+// Common defines for the agf_core target
+
+PRODUCT_NAME = cpp-sandbox
+
+SDKROOT = macosx
+VALID_ARCHS = x86_64
+
+EXTERNAL_PATH = $(SRCROOT)/../../external
+
+//AGF
+BENCHMARK_PATH = $(EXTERNAL_PATH)/google_benchmark/include 
+
+HEADER_SEARCH_PATHS = $(BENCHMARK_PATH) 
+
+CLANG_CXX_LANGUAGE_STANDARD = c++17
+CLANG_CXX_LIBRARY = libc++
+MACOSX_DEPLOYMENT_TARGET = 10.13
+
+OTHER_LDFLAGS = -L/Users/svakhin/dev/github/cpp-sandbox/external/google_benchmark/lib/macos/release -lbenchmark
